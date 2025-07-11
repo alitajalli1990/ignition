@@ -2,10 +2,20 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://alitajalli1990.github.io/ignition/sitemap.xml
+Sitemap: https://hamyaran-automation.github.io/ignition/sitemap.xml
 
 # Crawl delay (optional - 1 second)
 Crawl-delay: 1
+
+# Allow important sections
+Allow: /#about
+Allow: /#services
+Allow: /#products
+Allow: /#portfolio
+Allow: /#why-ignition
+Allow: /#blog
+Allow: /#faq
+Allow: /#contact
 
 # Disallow specific directories if needed
 # Disallow: /private/
