@@ -1,19 +1,304 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <title>Ignition & Sepasoft Company</title>
-  <link rel="stylesheet" href="assets/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شرکت [نام شرکت شما] - راهکارهای Ignition و Sepasoft</title>
+    <meta name="description" content="ارائه خدمات و محصولات نرم‌افزاری بر پایه پلتفرم Ignition و راهکارهای Sepasoft برای اتوماسیون صنعتی و MES.">
+    <meta name="keywords" content="Ignition, Sepasoft, MES, SCADA, اتوماسیون صنعتی, HMI, کنترل کیفیت, تولید هوشمند">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/20LKC9zX+RqQ6KTQMHxSgX/ZZoP1yoCsEkUplL9fQ6K6S8S/zJ0bQ" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body {
+            font-family: 'Tahoma', sans-serif; /* You might want to use a more modern Persian font */
+            line-height: 1.6;
+            color: #333;
+        }
+        .navbar {
+            background-color: #004d99; /* Dark blue */
+        }
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://via.placeholder.com/1500x500?text=Industrial+Automation+Background') no-repeat center center/cover; /* Placeholder image */
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .hero-section h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+        .hero-section p {
+            font-size: 1.5rem;
+            margin-bottom: 40px;
+        }
+        .section-padding {
+            padding: 80px 0;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+            font-size: 2.5rem;
+            color: #004d99;
+        }
+        .feature-box {
+            text-align: center;
+            padding: 30px;
+            border: 1px solid #eee;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+        }
+        .feature-box:hover {
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transform: translateY(-5px);
+        }
+        .feature-box i {
+            font-size: 3rem;
+            color: #007bff; /* Bootstrap primary blue */
+            margin-bottom: 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .lang-switcher button {
+            background: none;
+            border: 1px solid #fff;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        .lang-switcher button.active {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+        [lang="en"] {
+            direction: ltr;
+        }
+        [lang="fa"] {
+            direction: rtl;
+        }
+    </style>
 </head>
-<body>
-  <div class="container">
-    <img src="assets/logo.png" alt="Company Logo" style="width:80px;margin-bottom:15px;"/>
-    <h1>Ignition & Sepasoft Company</h1>
-    <p>Please select your language:</p>
-    <ul>
-      <li><a href="en/index.html">English</a></li>
-      <li><a href="fa/index.html">فارسی</a></li>
-    </ul>
-  </div>
+<body lang="fa" dir="rtl">
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#" data-en="[Your Company Name]" data-fa="[نام شرکت شما]"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home" data-en="Home" data-fa="خانه"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" data-en="About Us" data-fa="درباره ما"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services" data-en="Services" data-fa="خدمات"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products" data-en="Products" data-fa="محصولات"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-en="Contact Us" data-fa="تماس با ما"></a>
+                    </li>
+                    <li class="nav-item lang-switcher d-flex align-items-center ms-3">
+                        <button id="lang-fa" class="active">فارسی</button>
+                        <button id="lang-en">English</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h1 data-en="Empowering Your Industry with Ignition & Sepasoft Solutions" data-fa="قدرت‌بخشیدن به صنعت شما با راهکارهای Ignition و Sepasoft"></h1>
+            <p data-en="We provide comprehensive software solutions and services based on Inductive Automation Ignition and Sepasoft platforms." data-fa="ما راهکارهای جامع نرم‌افزاری و خدمات مرتبط با پلتفرم‌های Inductive Automation Ignition و Sepasoft را ارائه می‌دهیم.">
+            </p>
+            <a href="#contact" class="btn btn-primary btn-lg" data-en="Get a Quote" data-fa="درخواست مشاوره"></a>
+        </div>
+    </section>
+
+    <section id="about" class="section-padding">
+        <div class="container">
+            <h2 class="section-title" data-en="About Us" data-fa="درباره ما"></h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <p data-en="[Your Company Name] is a leading provider of industrial automation and Manufacturing Execution System (MES) solutions. With a team of highly skilled engineers and specialists, we leverage cutting-edge technologies like Ignition and Sepasoft to help businesses optimize their operations, enhance efficiency, and achieve digital transformation." data-fa="[نام شرکت شما] ارائه‌دهنده پیشرو در زمینه اتوماسیون صنعتی و راهکارهای سیستم اجرایی تولید (MES) است. با تیمی از مهندسان و متخصصان بسیار ماهر، ما از فناوری‌های پیشرفته‌ای مانند Ignition و Sepasoft بهره می‌بریم تا به کسب‌وکارها در بهینه‌سازی عملیات، افزایش کارایی و دستیابی به تحول دیجیتال کمک کنیم."></p>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <p data-en="Our mission is to deliver innovative, reliable, and scalable solutions that address the unique challenges of modern manufacturing. We are committed to fostering long-term partnerships with our clients, ensuring their success through unparalleled expertise and dedicated support." data-fa="ماموریت ما ارائه راهکارهای نوآورانه، قابل اعتماد و مقیاس‌پذیر است که چالش‌های منحصر به فرد تولید مدرن را برطرف می‌کند. ما متعهد به ایجاد مشارکت‌های بلندمدت با مشتریان خود هستیم و موفقیت آنها را از طریق تخصص بی‌نظیر و پشتیبانی اختصاصی تضمین می‌کنیم."></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title" data-en="Our Services" data-fa="خدمات ما"></h2>
+            <div class="row text-center">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="feature-box">
+                        <i class="fas fa-cogs"></i>
+                        <h4 data-en="System Integration & Implementation" data-fa="یکپارچه‌سازی و پیاده‌سازی سیستم"></h4>
+                        <p data-en="Full lifecycle implementation of Ignition and Sepasoft solutions, from design to deployment." data-fa="پیاده‌سازی چرخه کامل راه‌حل‌های Ignition و Sepasoft، از طراحی تا استقرار."></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="feature-box">
+                        <i class="fas fa-hands-helping"></i>
+                        <h4 data-en="Consultation & Design" data-fa="مشاوره و طراحی"></h4>
+                        <p data-en="Expert guidance to choose the right architecture and modules for your industrial needs." data-fa="راهنمایی تخصصی برای انتخاب معماری و ماژول‌های مناسب برای نیازهای صنعتی شما."></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="feature-box">
+                        <i class="fas fa-wrench"></i>
+                        <h4 data-en="Maintenance & Support" data-fa="نگهداری و پشتیبانی"></h4>
+                        <p data-en="Ongoing support, troubleshooting, and maintenance to ensure seamless operation." data-fa="پشتیبانی مداوم، رفع اشکال و نگهداری برای تضمین عملکرد بی‌وقفه."></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="feature-box">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <h4 data-en="Training Programs" data-fa="برنامه‌های آموزشی"></h4>
+                        <p data-en="Customized training for your team to master Ignition and Sepasoft functionalities." data-fa="آموزش‌های سفارشی برای تیم شما جهت تسلط بر قابلیت‌های Ignition و Sepasoft."></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="feature-box">
+                        <i class="fas fa-code"></i>
+                        <h4 data-en="Custom Module Development" data-fa="توسعه ماژول‌های سفارشی"></h4>
+                        <p data-en="Developing tailored modules and scripts to extend Ignition and Sepasoft capabilities." data-fa="توسعه ماژول‌ها و اسکریپت‌های سفارشی برای گسترش قابلیت‌های Ignition و Sepasoft."></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="feature-box">
+                        <i class="fas fa-chart-line"></i>
+                        <h4 data-en="Data Analytics & Reporting" data-fa="تجزیه و تحلیل داده و گزارش‌گیری"></h4>
+                        <p data-en="Leveraging Ignition's powerful data capabilities for insightful reports and dashboards." data-fa="بهره‌گیری از قابلیت‌های قدرتمند داده Ignition برای گزارش‌ها و داشبوردهای روشنگر."></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="section-padding">
+        <div class="container">
+            <h2 class="section-title" data-en="Our Products & Platforms" data-fa="محصولات و پلتفرم‌های ما"></h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <h3 data-en="Inductive Automation Ignition" data-fa="Inductive Automation Ignition"></h3>
+                    <p data-en="Ignition is an industrial application platform for building HMI, SCADA, MES, and IIoT solutions. Its modular architecture, unlimited licensing, and robust toolset make it a versatile platform for digital transformation." data-fa="Ignition یک پلتفرم کاربردی صنعتی برای ساخت راه‌حل‌های HMI، SCADA، MES و IIoT است. معماری ماژولار، مجوزهای نامحدود و مجموعه ابزارهای قدرتمند آن، Ignition را به پلتفرمی چندکاره برای تحول دیجیتال تبدیل کرده است."></p>
+                    <ul>
+                        <li data-en="SCADA (Supervisory Control and Data Acquisition)" data-fa="SCADA (نظارت، کنترل و جمع‌آوری داده)"></li>
+                        <li data-en="HMI (Human Machine Interface)" data-fa="HMI (رابط انسان و ماشین)"></li>
+                        <li data-en="MES (Manufacturing Execution System)" data-fa="MES (سیستم اجرایی تولید)"></li>
+                        <li data-en="IIoT (Industrial Internet of Things)" data-fa="IIoT (اینترنت اشیا صنعتی)"></li>
+                        <li data-en="Reporting & Analysis" data-fa="گزارش‌گیری و تحلیل"></li>
+                    </ul>
+                    <a href="https://inductiveautomation.com/" target="_blank" class="btn btn-outline-primary" data-en="Learn More about Ignition" data-fa="اطلاعات بیشتر درباره Ignition"></a>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <h3 data-en="Sepasoft MES Modules" data-fa="ماژول‌های Sepasoft MES"></h3>
+                    <p data-en="Sepasoft MES is a suite of powerful modules built directly on the Ignition platform, providing comprehensive solutions for manufacturing operations management. These modules address key areas like production management, OEE, quality, and more." data-fa="Sepasoft MES مجموعه‌ای از ماژول‌های قدرتمند است که مستقیماً بر روی پلتفرم Ignition ساخته شده‌اند و راه‌حل‌های جامعی را برای مدیریت عملیات تولید ارائه می‌دهند. این ماژول‌ها حوزه‌های کلیدی مانند مدیریت تولید، OEE، کیفیت و غیره را پوشش می‌دهند."></p>
+                    <ul>
+                        <li data-en="OEE (Overall Equipment Effectiveness)" data-fa="OEE (کارایی کلی تجهیزات)"></li>
+                        <li data-en="Production Management" data-fa="مدیریت تولید"></li>
+                        <li data-en="Quality Management" data-fa="مدیریت کیفیت"></li>
+                        <li data-en="SPC (Statistical Process Control)" data-fa="SPC (کنترل فرآیند آماری)"></li>
+                        <li data-en="Track & Trace" data-fa="رهگیری و ردیابی"></li>
+                    </ul>
+                    <a href="https://sepasoft.com/" target="_blank" class="btn btn-outline-primary" data-en="Learn More about Sepasoft" data-fa="اطلاعات بیشتر درباره Sepasoft"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title" data-en="Contact Us" data-fa="تماس با ما"></h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <p class="text-center" data-en="Have questions or need a consultation? Feel free to reach out to us." data-fa="سوال یا نیاز به مشاوره دارید؟ با ما تماس بگیرید."></p>
+                    <ul class="list-unstyled text-center">
+                        <li data-en="<i class='fas fa-map-marker-alt me-2'></i> [آدرس شرکت شما]" data-fa="<i class='fas fa-map-marker-alt me-2'></i> [آدرس شرکت شما]"></li>
+                        <li data-en="<i class='fas fa-phone me-2'></i> [شماره تلفن شما]" data-fa="<i class='fas fa-phone me-2'></i> [شماره تلفن شما]"></li>
+                        <li data-en="<i class='fas fa-envelope me-2'></i> <a href='mailto:info@yourcompany.com'>info@yourcompany.com</a>" data-fa="<i class='fas fa-envelope me-2'></i> <a href='mailto:info@yourcompany.com'>info@yourcompany.com</a>"></li>
+                    </ul>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p data-en="&copy; 2024 [Your Company Name]. All rights reserved." data-fa="&copy; 2024 [نام شرکت شما]. تمامی حقوق محفوظ است."></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcqMhV/bSm30H0Q6c" crossorigin="anonymous"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const langFaBtn = document.getElementById('lang-fa');
+            const langEnBtn = document.getElementById('lang-en');
+            const body = document.querySelector('body');
+            const elements = document.querySelectorAll('[data-en], [data-fa]');
+
+            function setLanguage(lang) {
+                body.setAttribute('lang', lang);
+                body.setAttribute('dir', lang === 'fa' ? 'rtl' : 'ltr');
+
+                elements.forEach(el => {
+                    if (el.dataset[lang]) {
+                        if (el.tagName === 'A' && el.classList.contains('navbar-brand')) {
+                            el.textContent = el.dataset[lang];
+                        } else if (el.tagName === 'A' && el.classList.contains('nav-link')) {
+                            el.textContent = el.dataset[lang];
+                        }
+                        else if (el.tagName === 'A' && el.classList.contains('btn')) {
+                            el.textContent = el.dataset[lang];
+                        }
+                        else if (el.tagName === 'LI') { // Handle list items with inner HTML (like contact info)
+                            el.innerHTML = el.dataset[lang];
+                        }
+                        else {
+                            el.textContent = el.dataset[lang];
+                        }
+                    }
+                });
+
+                // Update active button state
+                langFaBtn.classList.remove('active');
+                langEnBtn.classList.remove('active');
+                if (lang === 'fa') {
+                    langFaBtn.classList.add('active');
+                } else {
+                    langEnBtn.classList.add('active');
+                }
+            }
+
+            // Set default language to Persian
+            setLanguage('fa');
+
+            langFaBtn.addEventListener('click', () => setLanguage('fa'));
+            langEnBtn.addEventListener('click', () => setLanguage('en'));
+        });
+    </script>
 </body>
 </html>
