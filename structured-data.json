@@ -6,7 +6,7 @@
       "@id": "https://hamyar-automation.github.io/ignition/#organization",
       "name": "همیاران اتوماسیون",
       "alternateName": "Hamyaran Automation",
-      "description": "تیم متخصصان و مشاوران حرفه‌ای Ignition و Sepasoft برای اتوماسیون صنعتی، تحول دیجیتال و هوش مصنوعی",
+      "description": "تیم متخصصان اسکادا، اتوماسیون صنعتی، PLC و نرم افزار Ignition. ارائه لایسنس ignition، نرم افزار صنعتی، سیستم‌های مانیتورینگ و کنترل، MES، ERP و کنترل فرایند",
       "url": "https://hamyaran-automation.github.io/ignition/",
       "email": "alitajalli1990@gmail.com",
       "telephone": "+98-912-345-6789",
@@ -28,14 +28,23 @@
         "name": "Industrial Automation Consultant",
         "occupationalCategory": "Engineering",
         "skills": [
+          "اسکادا",
+          "اتوماسیون صنعتی",
+          "PLC",
+          "نرم افزار Ignition",
+          "لایسنس ignition",
+          "نرم افزار صنعتی",
+          "مانیتورینگ و کنترل",
+          "کنترل فرایند",
           "Ignition SCADA",
           "Sepasoft MES",
           "Industrial Automation",
           "SCADA Systems",
           "MES Implementation",
-          "OEE Optimization",
+          "ERP Integration",
           "PLC Programming",
-          "Industrial IoT"
+          "Industrial IoT",
+          "نسخه لایسنس نرم افزار ignition"
         ]
       }
     },
