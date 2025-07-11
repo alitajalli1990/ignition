@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <!-- Homepage -->
+    <url>
+        <loc>https://alitajalli1990.github.io/ignition/</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- About Section -->
+    <url>
+        <loc>https://alitajalli1990.github.io/ignition/#about</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Services Section -->
+    <url>
+        <loc>https://alitajalli1990.github.io/ignition/#services</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Products/Solutions Section -->
+    <url>
+        <loc>https://alitajalli1990.github.io/ignition/#products</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Portfolio Section -->
+    <url>
+        <loc>https://alitajalli1990.github.io/ignition/#portfolio</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Why Ignition Section -->
+    <url>
+        <loc>https://alitajalli1990.github.io/ignition/#why-ignition</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Blog Section -->
+    <url>
+        <loc>https://alitajalli1990.github.io/ignition/#blog</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Contact Section -->
+    <url>
+        <loc>https://alitajalli1990.github.io/ignition/#contact</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Blog Articles (Add more as you create them) -->
+    <url>
+        <loc>https://alitajalli1990.github.io/ignition/blog/oee-optimization-sepasoft.html</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://alitajalli1990.github.io/ignition/blog/ignition-edge-iiot.html</loc>
+        <lastmod>2024-03-10</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://alitajalli1990.github.io/ignition/blog/industrial-security-best-practices.html</loc>
+        <lastmod>2024-03-05</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Add more URLs as your site grows -->
+
+</urlset> 
