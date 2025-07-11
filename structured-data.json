@@ -1,0 +1,273 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://hamyar-automation.github.io/ignition/#organization",
+      "name": "همیاران اتوماسیون",
+      "alternateName": "Hamyaran Automation",
+      "description": "تیم متخصصان و مشاوران حرفه‌ای Ignition و Sepasoft برای اتوماسیون صنعتی، تحول دیجیتال و هوش مصنوعی",
+      "url": "https://hamyaran-automation.github.io/ignition/",
+      "email": "alitajalli1990@gmail.com",
+      "telephone": "+98-912-345-6789",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "تهران",
+        "addressCountry": "IR"
+      },
+      "sameAs": [
+        "https://linkedin.com/in/alitajalli",
+        "https://www.linkedin.com/in/ali-tajalli/"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Freelancer"
+      },
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Industrial Automation Consultant",
+        "occupationalCategory": "Engineering",
+        "skills": [
+          "Ignition SCADA",
+          "Sepasoft MES",
+          "Industrial Automation",
+          "SCADA Systems",
+          "MES Implementation",
+          "OEE Optimization",
+          "PLC Programming",
+          "Industrial IoT"
+        ]
+      }
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://alitajalli1990.github.io/ignition/#service",
+      "name": "خدمات اتوماسیون صنعتی علی تجلی",
+      "alternateName": "Ali Tajalli Industrial Automation Services",
+      "description": "ارائه خدمات کامل اتوماسیون صنعتی از مشاوره تا پیاده‌سازی",
+      "url": "https://alitajalli1990.github.io/ignition/",
+      "provider": {
+        "@id": "https://alitajalli1990.github.io/ignition/#person"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "Iran"
+        },
+        {
+          "@type": "Country", 
+          "name": "Middle East"
+        }
+      ],
+      "serviceType": [
+        "Industrial Automation Consulting",
+        "SCADA Implementation",
+        "MES Systems",
+        "Ignition Platform Services",
+        "Sepasoft Solutions",
+        "System Integration",
+        "Training Services",
+        "Technical Support",
+        "Ignition License Provision"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Industrial Automation Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Ignition SCADA Consultation",
+              "description": "مشاوره و طراحی سیستم‌های SCADA با پلتفرم Ignition"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Sepasoft MES Implementation", 
+              "description": "پیاده‌سازی سیستم‌های MES با ماژول‌های Sepasoft"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "OEE Optimization",
+              "description": "بهینه‌سازی کارایی کلی تجهیزات"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Industrial Training",
+              "description": "آموزش‌های تخصصی اتوماسیون صنعتی"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Full Ignition License Provision",
+              "description": "تهیه لایسنس‌های فول Ignition با اتصالات نامحدود و قابلیت‌های سازمانی"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://alitajalli1990.github.io/ignition/#website",
+      "url": "https://alitajalli1990.github.io/ignition/",
+      "name": "علی تجلی - متخصص اتوماسیون صنعتی",
+      "alternateName": "Ali Tajalli - Industrial Automation Expert",
+      "description": "وب‌سایت حرفه‌ای علی تجلی، مشاور و متخصص Ignition و Sepasoft",
+      "publisher": {
+        "@id": "https://alitajalli1990.github.io/ignition/#person"
+      },
+      "inLanguage": ["fa", "en"],
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://alitajalli1990.github.io/ignition/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://alitajalli1990.github.io/ignition/#organization",
+      "name": "Ali Tajalli Consulting",
+      "alternateName": "مشاوره علی تجلی",
+      "url": "https://alitajalli1990.github.io/ignition/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://alitajalli1990.github.io/ignition/assets/logo.png"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+98-912-345-6789",
+        "contactType": "Customer Service",
+        "email": "ali.tajalli@example.com",
+        "availableLanguage": ["Persian", "English"]
+      },
+      "founder": {
+        "@id": "https://alitajalli1990.github.io/ignition/#person"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "تهران",
+        "addressCountry": "IR"
+      },
+      "sameAs": [
+        "https://linkedin.com/in/alitajalli",
+        "https://www.linkedin.com/in/ali-tajalli/"
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://alitajalli1990.github.io/ignition/#why-ignition",
+      "headline": "چرا Ignition؟ - پلتفرم یکپارچه برای تعالی صنعتی",
+      "alternativeHeadline": "Why Ignition? - The Unified Platform for Industrial Excellence",
+      "description": "دلایل انتخاب پلتفرم Ignition برای اتوماسیون صنعتی و مزایای آن نسبت به رقبا",
+      "datePublished": "2024-03-15",
+      "dateModified": "2024-03-15",
+      "author": {
+        "@id": "https://alitajalli1990.github.io/ignition/#person"
+      },
+      "publisher": {
+        "@id": "https://alitajalli1990.github.io/ignition/#organization"
+      },
+      "url": "https://alitajalli1990.github.io/ignition/#why-ignition",
+      "mainEntityOfPage": "https://alitajalli1990.github.io/ignition/#why-ignition",
+      "articleSection": "Platform Comparison",
+      "keywords": [
+        "Ignition Platform",
+        "Industrial Automation",
+        "SCADA",
+        "MES",
+        "Sepasoft",
+        "پلتفرم اتوماسیون",
+        "یکپارچه‌سازی",
+        "لایسنس نامحدود",
+        "OPC UA",
+        "مقایسه پلتفرم"
+      ],
+      "inLanguage": ["fa", "en"],
+      "about": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "Ignition Platform",
+          "applicationCategory": "Industrial Automation Software",
+          "operatingSystem": ["Windows", "Linux", "macOS"],
+          "offers": {
+            "@type": "Offer",
+            "description": "Unlimited client licensing model"
+          }
+        },
+        {
+          "@type": "Thing",
+          "name": "Industrial Automation Platform Comparison"
+        },
+        {
+          "@type": "Thing",
+          "name": "SCADA System Selection"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "Sepasoft MES",
+          "description": "Native MES modules for Ignition"
+        },
+        {
+          "@type": "Technology",
+          "name": "OPC UA",
+          "description": "Industrial communication protocol"
+        }
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "حداکثرسازی OEE با تحلیل‌های Sepasoft",
+      "alternativeHeadline": "Maximizing OEE with Sepasoft Analytics",
+      "description": "راهنمای کامل استفاده از ماژول OEE سپاسافت برای بهبود کارایی تولید",
+      "datePublished": "2024-03-15",
+      "dateModified": "2024-03-15",
+      "author": {
+        "@id": "https://alitajalli1990.github.io/ignition/#person"
+      },
+      "publisher": {
+        "@id": "https://alitajalli1990.github.io/ignition/#organization"
+      },
+      "url": "https://alitajalli1990.github.io/ignition/blog/oee-optimization-sepasoft.html",
+      "mainEntityOfPage": "https://alitajalli1990.github.io/ignition/blog/oee-optimization-sepasoft.html",
+      "articleSection": "Industrial Automation",
+      "keywords": [
+        "OEE",
+        "Sepasoft",
+        "کارایی تولید",
+        "اتوماسیون صنعتی",
+        "Ignition",
+        "تحلیل داده",
+        "MES",
+        "SCADA"
+      ],
+      "inLanguage": ["fa", "en"],
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Overall Equipment Effectiveness"
+        },
+        {
+          "@type": "Thing", 
+          "name": "Sepasoft MES"
+        },
+        {
+          "@type": "Thing",
+          "name": "Industrial Automation"
+        }
+      ]
+    }
+  ]
+} 
